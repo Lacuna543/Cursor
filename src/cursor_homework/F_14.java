@@ -22,6 +22,6 @@ public class F_14 extends Destroyer {
     }
 
     public void describeEngine(){
-        System.out.println(getName() + " has " + getEnginesType() + " engine with" + getEngineCapacity() + " liters.");
+        System.out.println(getName() + " has " + getEnginesType() + " engine with " + getEngineCapacity() + " liters.");
     }
 }

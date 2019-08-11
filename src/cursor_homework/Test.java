@@ -9,6 +9,7 @@ public class Test {
         plane1.startAttack(plane1.getNumberOfRockets());
         plane2.startAttack(plane2.getNumberOfRockets() / 2);
         plane2.flyUp();
+        plane1.describeEngine();
         plane2.landing();
     }
 }
