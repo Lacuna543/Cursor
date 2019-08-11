@@ -15,10 +15,13 @@ public class F_14 extends Destroyer {
     }
 
     public void startAttack(int numberOfRockets) {
-        System.out.println("Attacked right wing: sent all " + numberOfRockets + " rocket");
+        System.out.println("Attacked right wing: sent all " + numberOfRockets + " rocket.");
     }
     public void landing(){
         System.out.println(getName() + " is landing.");
     }
 
+    public void describeEngine(){
+        System.out.println(getName() + " has " + getEnginesType() + " engine with" + getEngineCapacity() + " liters.");
+    }
 }
