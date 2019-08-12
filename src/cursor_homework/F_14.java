@@ -1,6 +1,6 @@
 package cursor_homework;
 
-public class F_14 extends Destroyer {
+public class F_14 extends Destroyer implements Info{
     public F_14(){
         setEngineCapacity(9500);
         setEnginesType("Pratt & Whitney F100");
@@ -23,5 +23,10 @@ public class F_14 extends Destroyer {
 
     public void describeEngine(){
         System.out.println(getName() + " has " + getEnginesType() + " engine with " + getEngineCapacity() + " liters.");
+    }
+
+    @Override
+    public void showInfo() {
+        super.showInfo();
     }
 }

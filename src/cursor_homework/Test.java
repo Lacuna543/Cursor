@@ -11,6 +11,7 @@ public class Test {
         plane2.flyUp();
         plane1.describeEngine();
         plane2.landing();
+        plane1.showInfo();
     }
 }
 

@@ -1,6 +1,6 @@
 package cursor_homework;
 
-public class Su_15 extends Destroyer {
+public class Su_15 extends Destroyer implements Info{
     public Su_15() {
         setEngineCapacity(8675);
         setEnginesType("Р-11-30");

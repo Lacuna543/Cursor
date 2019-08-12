@@ -1,6 +1,6 @@
 package cursor_homework;
 
-public class Destroyer {
+public class Destroyer implements Info{
     private int speed;
     private int flightAltitude;
     private int numberOfRockets;
@@ -70,5 +70,10 @@ public class Destroyer {
 
     public void startEngine(String enginesType, int engineCapacity){
         System.out.println("Started engine " + enginesType + " with " + engineCapacity + " capacity.");
+    }
+
+    @Override
+    public void showInfo() {
+        System.out.println("Hey, this is info");
     }
 }
