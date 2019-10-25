@@ -2,12 +2,7 @@ package cursor_homework;
 
 public class Su_15 extends Destroyer implements Info{
     public Su_15() {
-        setEngineCapacity(8675);
-        setEnginesType("Р-11-30");
-        setFlightAltitude(11750);
-        setSpeed(1750);
-        setName("Su-15");
-        setNumberOfRockets(8);
+
     }
 
     public void flyUp(){
