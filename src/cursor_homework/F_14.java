@@ -2,12 +2,7 @@ package cursor_homework;
 
 public class F_14 extends Destroyer implements Info{
     public F_14(){
-        setEngineCapacity(9500);
-        setEnginesType("Pratt & Whitney F100");
-        setFlightAltitude(11750);
-        setSpeed(2655);
-        setName("F-15");
-        setNumberOfRockets(16);
+
     }
 
     public void flyUp(){
